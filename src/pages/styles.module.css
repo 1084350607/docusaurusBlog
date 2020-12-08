@@ -1,0 +1,99 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
+
+.index_wrapper{
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../../static/img/bgimage.jpg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+.index_wrapper h1{
+  margin-bottom: 50px;
+}
+
+.blogHome_btn{
+  width: 200px;
+  height: 68px;
+  color: black;
+  border: 1px solid gray;
+  text-align: center;
+  line-height: 67px;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+  transition: .3s ease;
+  background-color: #2a9d8f;
+  color: aliceblue;
+}
+
+.blogHome_btn:hover{
+  text-decoration: none;
+  transition: .3s ease;
+  color: black;
+  background-color: #fff;
+}
+
+h1{
+  color:black;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  h1{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  h1{
+    font-size: 25px;
+  }
+}
+
+p{
+  color: black;
+}
+
